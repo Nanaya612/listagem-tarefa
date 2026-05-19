@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Essa projeto visa estruturar uma aplicação que simula uma lista de tarefas interativa. 
 
-## Getting Started
+# Tecnologias
 
-First, run the development server:
+A aplicação usa tecnologias [Next.js 15](https://nextjs.org/) para organização de componentes reutilizáveis(Server Components/Client Components) usando modelo do App Router.
+É utilizado [Jest](https://jestjs.io/pt-BR/) e [Testing Library](https://testing-library.com/) para realização de testes no codigo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Funções 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação permite visualizar uma lista de tarefas simples com uma funcionalidade de adição de tarefas.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Como Rodar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Pre-requisitos 
 
-## Learn More
+- Node.js v24.11.1
+- Gerenciador de pacotes como: `npm` ou `yarn`
 
-To learn more about Next.js, take a look at the following resources:
+## Instalação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Clone o repositorio com comando: `git clone https://github.com/Nanaya612/blogpescaria`
+- Acesse o diretorio com `git cd listagem-tarefa`
+- instale as dependencias com `npm install`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Iniciar 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- rode o comando: `npm run dev` (para desenvolvimento)
+- rode os comandos: `npm run build` e `npm run start` respectivamente (para produção)
+- Acesse `http://localhost:3000` no navegador
