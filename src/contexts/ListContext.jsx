@@ -1,9 +1,11 @@
 'use client';
-import { createContext, useContext, useState } from 'react';
+import res from '@/api/tarefas.json';
+import { createContext, useState } from 'react';
 
 export const ListContext = createContext() ?? {};
 export function ListProvider({ children }) {
-  const [tarefas, setTarefas] = useState([]);
+  if (!res) return;
+  const [tarefas, setTarefas] = useState(res);
   return (
     <ListContext.Provider value={{ tarefas, setTarefas }}>
       {children}

@@ -12,7 +12,6 @@ const NovaTarefa = () => {
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {
     setValor(e.target.value);
   };
-
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (valor == '') {
