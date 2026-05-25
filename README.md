@@ -19,7 +19,7 @@ A aplicação permite visualizar uma lista de tarefas simples com uma funcionali
 ## Instalação
 
 - Clone o repositorio com comando: `git clone https://github.com/Nanaya612/listagem-tarefa`
-- Acesse o diretorio com `git cd listagem-tarefa`
+- Acesse o diretorio com `cd listagem-tarefa`
 - instale as dependencias com `npm install`
 
 ## Iniciar
